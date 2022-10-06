@@ -1,0 +1,7 @@
+<php?
+   echo $_GET['namalengkap'];
+   echo "<br />";
+   echo $_GET['kelas'];
+   echo "<br />";
+   echo $_GET['ket'];
+?>

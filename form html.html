@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>FORM ABSEN</h1>
+<h2>Jangan lupa isi keterangan<h2>
+
+<form action="/action_page.php" method="get">
+  <label for="fname">Nama Lengkap:</label><br>
+  <input type="text" id="namalengkap" name="namalengkap" value=""><br><br>
+  <label for="lname">Kelas :</label><br>
+  
+ <select id="kelas" name="kelas">
+    <option value="kelas A">Kelas A</option>
+    <option value="Kelas B">Kelas B</option>
+    <option value="Kelas C">Kelas C</option>
+    <option value="Kelas D">Kelas D</option>
+  </select><br>
+  
+  <h3>Keterangan</h3>
+  <input type="radio" id="hadir" name="ket" value="hadir">
+  <label for="hadir">hadir</label>
+  <input type="radio" id="izin" name="ket" value="izin">
+  <label for="izin">izin</label>
+  <input type="radio" id="Tanpa Keterangan" name="ket" value="Tanpa Keterangan">
+  <label for="Tanpa Keterangan">Tanpa Keterangan</label><br><br>
+  <input type="submit" value="Submit">
+  </form>
